@@ -1,9 +1,17 @@
+div{
+    width: auto;
+}
+
 p{
-    font-size: 48px;
-    margin: 48px;
+    font-size: 36px;
+    margin: 16px 4px 16px 16px;
 }
 button{
     width:120px;
     height: 40px;
-    margin-bottom: 16px;;
+    margin-bottom: 16px;
+}
+
+h2, button{
+    margin-left: 16px;
 }

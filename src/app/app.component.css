@@ -4,10 +4,7 @@
     grid-auto-flow: column;
     text-align:left;
     margin: 24px;
-    border: solid, rgb(255, 134, 134), 4px;
+    border: solid,#ff8686, 16px;
     border-radius: 4px;
-    background-color: rgb(255, 231, 211);
-}
-body{
-    background-color: antiquewhite;
+    background-color: #FFFAF5;
 }

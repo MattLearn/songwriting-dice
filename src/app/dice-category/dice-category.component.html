@@ -1,5 +1,10 @@
-<div class="container">
-    <h2>{{title}}</h2>
+<div class="block">
+    @if (diceroll !=0) {
     <p>{{criteria[diceroll-1]}}</p>
+    }
+    @else {
+        <p>-</p>
+    }
     <button (click)="rolldice()"> roll </button>
+    <h2>{{title}}</h2>
 </div>
